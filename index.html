@@ -1,105 +1,122 @@
-
 <!DOCTYPE html>
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="home.css" />
 </head>
+
+
+
 <html>
+    <div class="top">
+        <div class="nav-bar">
+        <div class="nav-link">
+           <a href="../index.html"><p>Home</p></a>
+        </div>
 
-<div class="top">
-  <div class="nav-bar">
-    <div class="nav-link">
-       <a href="../index.html"><p>Home</p></a>
+        <div class="nav-link dropdown">
+          <a href="#""><p>Projects</a>
+           <div class="dropdown-content">
+             <a href="/pages/crownpoppy-page/crownpoppy-page.html">Crown Poppy Website</a>
+             <a href="/pages/unveil-page/unveil-page.html">Unveil APP</a>
+           </div>
+        </div>
+
+        <div class = "nav-link">
+           <a href="/pages/resume-page/resume-page.html"><p>Resume</p></a> </div>
+        </div>
+
+      <div class="home-header">
+         <h1> Hello! I'm Akari </h1>
+         <p>
+            I am a graduating senior from Pasadena High School. 
+            I am interested in computer science and web development. 
+            I hope to further my education at Cal Poly Pomona as a computer science major in fall 2024.</p> 
+         <p>  Take a look at some of my projects!</p>
+      </div>
+
     </div>
-    <div class="nav-link dropdown">
-      <a href="#""><p>Projects</a>
-       <div class="dropdown-content">
-         <a href="/pages/crownpoppy-page/crownpoppy-page.html">Crown Poppy Website</a>
-         <a href="/pages/unveil-page/unveil-page.html">Unveil APP</a>
-       </div>
-    </div>
-    <div class = "nav-link">
-       <a href="/pages/resume-page/resume-page.html"><p>Resume</p></a> </div>
-    </div>
-  <div class="home-header">
-     <h1> Hello! I'm Akari </h1>
-     <p>
-        I am a graduating senior from Pasadena High School. 
-        I am interested in computer science and web development. 
-        I hope to further my education at Cal Poly Pomona as a computer science major in fall 2024.</p> 
-     <p>  Take a look at some of my projects!</p>
-  </div>
 </div>
-  <br> <br>
 
-  <div class="project-grid">
-    <br /><br /><br />
-
-
-    <div class="project-row">
-      <div class="project-container">
-
-        <div class="project-inner-container" style="background: #ffffb2">
-          <img src="./home-page-assets/crownpoppy_home.png" class="project-img"/>
+    <div class = "content">
+        <div class = "project-container1">
+            <div >
+                 <img src="./home-page-assets/crownpoppy_home.png" class="project-img"/>
+            </div>
+            <div class="project-desc">
+                 <p class="project-title">Crown Poppy Service Unit Website</p>
+                 <a class="project-link" href="/pages/crownpoppy-page/crownpoppy-page.html"> Learn more about this project </a>
+                 <p class="project-info"> Website for the troop leaders in girls scout to access announcements about updates and to make purchases.
+                     Built in HTML/CSS/JavaScript developed with CodeSandBox and Vue. 
+            </div>
         </div>
 
-        <p class="project-title">Crown Poppy Service Unit Website</p>
-        <a class="project-link" href="/pages/crownpoppy-page/crownpoppy-page.html"> Learn more about this project </a>
-        <p class="project-desc"> Website for the troop leaders in girls scout to access announcements about updates and to make purchases. Built in HTML/CSS/JavaScript developed with CodeSandBox and Vue. 
+        <div class = "project-container2">
+            <div class="project-desc">
+                <p class="project-title">unveil: Mobile APP for journaling</p>
+                <a class="project-link" href="/pages/unveil-page/unveil-page.html"> Learn more about this project </a>
+                <p class="project-info">
+                    Unveil is a mobile application where users keep a journal based on a prompt given at random times each day.
 
-      </div>
-
-      <div class="project-container">
-        <div class="project-inner-container" style="background: #63A088">
-          <img src="./home-page-assets/sciencenight_home.png" class="project-img"/>
+                  Built in React Native using expo.dev.          </p>
+            </div>
+            <div>
+                <img src="./home-page-assets/unveil_home.png" class="project-img"/>
+            </div>
         </div>
 
-        <p class="project-title">District Science Fest Website</p>
-        <p class="project-desc">
-          An informational website for participants of the Pasadena USD Science Festival. Built using Google Sites. 
-        </p>
-      </div>
+        <div class="other-projects">
+            <h1 class="header"> Other Projects </h1>
+            
+            <div class="small-project-container">
+                <div class="small-projects">
+                    <img src="./home-page-assets/hackathon_home.png" class="small-projects-img"/>
+                    
+                    <p class="small-projects-desc">
+                        <p class="small-project-title">Summer Bucket List APP</p>
+                        <a class = "small-project-link" href="/pages/28percent-example.html"> Take a look at the code </a>
+                        <p class="small-project-info">
+                        Summer bucket list app designed for students to check off their goals in different categories over the summer break.
+                        Awarded first place in the app category at the 2024 App Hacks Hackathon. 
+                        Built in React Native using expo.dev        </p>
+
+                    </p>
+                </div>
+                <div class="small-projects">
+                    <img src="./home-page-assets/sciencenight_home.png" class="small-projects-img"/>
+                    <p class="small-projects-desc">
+                        <p class="small-project-title">District Science Fest Website</p>
+                        <p class="small-project-info">
+                        An informational website for the Pasadena USD Science Festival.
+                        It has many target audiances from the presenters, volunteers, students, and the community. 
+                        Has a description page of the participating presenters and information about their organization, map of the event, and contact information.  
+                        Built using Google Sites. 
+                            
+                    </p>
+                    </p>
+                </div>
+                <div class="small-projects">
+                    <img src="" class="small-projects-img"/>
+                    <p class="small-projects-desc">
+                        
+                    </p>
+                </div>
+                <div class="small-projects">
+                    <img src="" class="small-projects-img"/>
+                    <p class="small-projects-desc">
+                        
+                    </p>
+                </div>
+        
+            </div>
+
+
+
+
+
+        </div>
     </div>
 
 
-
-    <div class="project-row">
-        <div class="project-container">
-          <div class="project-inner-container" style="background: #ffffb2">
-            
-              <img src="./home-page-assets/hackathon_home.png" class="project-img"
-            />
-          </div>
-  
-          <p class="project-title">Summer Bucket List APP</p>
-          <a class = "project-link" href="/pages/28percent-example.html"> Take a look at the code </a>
-          <p class="project-desc">
-            Summer bucket list app designed for students to check off their goals in different categories over the summer break.
-            Awarded first place in the app category at the 2024 App Hacks Hackathon. 
-            Built in React Native using expo.dev.
-
-          </p>
-        </div>
-  
-        <div class="project-container">
-          <div class="project-inner-container" style="background: #63A088">
-            <img src="./home-page-assets/unveil_home.png" class="project-img"
-            />
-          </div>
-  
-          <p class="project-title">Unveil Journal APP</p>
-          <a class="project-link" href="/pages/unveil-page/unveil-page.html"> Learn more about this project </a>
-         
-          <p class="project-desc">
-            Built in React Native using expo.dev.          </p>
-        </div>
-      </div>
-
-    <br /><br /><br />
-   
-  </div>
-  <br /><br /><br />
 </html>
-
